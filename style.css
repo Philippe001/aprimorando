@@ -5,11 +5,16 @@
     margin: 0px;
 }
 body {
-    background-color: rgba(69, 69, 78, 0.808);;
+    background-color: rgba(69, 69, 78, 0.808);
+    background-image: url(midia/unnamed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
 
 }
 header {
-    background-color: rgba(37, 37, 190, 0.808);
+    background-image: linear-gradient(to bottom, blue, rgb(0, 132, 255), rgb(0, 255, 234));
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.342);
     padding: 15px;
    
@@ -24,7 +29,7 @@ nav > h1 {
     
 }
 nav a:hover{
-    background-color: blueviolet;
+    background-color: rgba(72, 20, 121, 0.329);
     color: white;
 
 }
@@ -40,14 +45,17 @@ nav a:hover{
 */
 main {
     background-color: antiquewhite; 
+    text-align: center;
     min-width: 300px;
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    border-radius: 10px;
+    box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.479);
    
 }
+
 article>h2{
     text-align: center;
 }
@@ -71,9 +79,18 @@ nav>a { /*color: var(--cor1);
 
 
 }
+a{
+    text-decoration: none;
+}
 footer{
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    padding: 5px;
+}
+footer  a{
+    text-decoration: solid;
+    color: white;
+    font-weight: bolder;
 }
