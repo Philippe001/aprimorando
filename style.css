@@ -49,6 +49,7 @@ nav > h1 {
     
 }
 nav a:hover{
+    text-align: justify;
     background-color: rgba(72, 20, 121, 0.329);
     color: white;
 
